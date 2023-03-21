@@ -78,3 +78,6 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+
+<div>HashSet을 이용한 풀이</div>
+<div>![HashSet](https://user-images.githubusercontent.com/106980524/226626787-d423c874-2b97-45c0-a05d-062b0326c9ca.png)</div>
