@@ -1,0 +1,10 @@
+* toCharArray()
+
+  - 문자열을 한 글자 씩 쪼개서 char 타입 배열에 넣음
+  - 반대로, char형 배열을 합쳐서 String(문자열)로 변경 가능
+    # (ex) String s = new String(charArr);
+    
+* StringBuilder
+
+  - 문자열 뒤집기 사용 가능
+    # reverse().toString();
