@@ -46,8 +46,6 @@
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
 
 
-<div> Calendar와 LocalData를 이용한 풀이
-    <div>![Calendar](https://user-images.githubusercontent.com/106980524/226614719-dd252700-8353-4764-baec-e6dfcf9cc8ba.png)</div>
-    <div>![LocalData](https://user-images.githubusercontent.com/106980524/226615078-a76f226b-a321-4495-a3c3-72440aa16c42.png)</div>
-
-</div>
+<div> Calendar와 LocalData를 이용한 풀이 </div>
+<div>![Calendar](https://user-images.githubusercontent.com/106980524/226614719-dd252700-8353-4764-baec-e6dfcf9cc8ba.png)</div>
+<div>![LocalData](https://user-images.githubusercontent.com/106980524/226615078-a76f226b-a321-4495-a3c3-72440aa16c42.png)</div>
