@@ -1,0 +1,19 @@
+* Calendar
+
+ - Calendar cal = new Calendar(); : 에러 발생 (추상 클래스로 객체 생성 불가)
+ - 따라서, Calendar cal = Calendar.getInstance(); : 인스턴스 반환
+ 
+* LocalData
+
+ - 객체 생성
+   # now() : 현재 날짜와 시간 저장하는 객체 생성
+   # of() : 해당 필드의 값 순서대로 지정
+   
+* Calendar / LocalData 차이
+
+ - Calendar
+   # 월 범위 : 0 ~ 11
+   # 요일 : {일요일, 1} , {월요일, 2} , ... , {토요일, 7}
+ - LocalData
+   # 월 범위 : 1 ~ 12
+   # 요일 : {일요일, 7} , {월요일, 1} , ... , {토요일, 6}
