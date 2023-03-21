@@ -47,7 +47,7 @@
 
 
 <div> Calendar와 LocalData를 이용한 풀이
-        ![Calendar](https://user-images.githubusercontent.com/106980524/226614719-dd252700-8353-4764-baec-e6dfcf9cc8ba.png)
-        ![LocalData](https://user-images.githubusercontent.com/106980524/226615078-a76f226b-a321-4495-a3c3-72440aa16c42.png)
+    <div>![Calendar](https://user-images.githubusercontent.com/106980524/226614719-dd252700-8353-4764-baec-e6dfcf9cc8ba.png)</div>
+    <div>![LocalData](https://user-images.githubusercontent.com/106980524/226615078-a76f226b-a321-4495-a3c3-72440aa16c42.png)</div>
 
 </div>
