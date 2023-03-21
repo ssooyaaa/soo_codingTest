@@ -1,0 +1,10 @@
+* HashSet
+
+  - value를 자동으로 임의 지정
+  - key에 중복을 배제하고 값을 넣음
+  
+* HashMap
+
+  - key, value를 직접 기입하고 키 중복 배제
+  - key : 유일한 값 / value : 중복 허용
+  - key, value NULL 허용
