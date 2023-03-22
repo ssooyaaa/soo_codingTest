@@ -97,3 +97,7 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+
+<div>toBinaryString을 이용한 풀이</div>
+<div>![toBinaryString_format_replaceAll](https://user-images.githubusercontent.com/106980524/226878101-e0b82d18-fe16-46f7-a8ad-61dfad7d0c15.png)
+</div>
