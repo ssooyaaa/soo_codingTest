@@ -1,0 +1,14 @@
+* System.arraycopy()
+
+  - 배열에서 원하는 부분만 복사
+  
+  - System.arraycopy(A,B,C,D,E)
+    # A(Objet src) : 복사하고자 하는 배열(원본)
+    # B(int srcPos) : 원본에서 어느 부분부터 읽어올지 시작 위치 지정
+    # C(Object dest) : 복사하려는 대상(복사본)
+    # D(int destPos) : 복사본에서 어느 부분부터 쓸지 시작 위치 지정
+    # E(int length) : 얼마만큼 읽어올지 지정
+    
+  - (ex) int[] array = new int[];
+         int[] dest = new int[length];
+         System.arraycopy(array, 0, dest, 0, length);
