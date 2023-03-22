@@ -1,0 +1,14 @@
+* getOrDefault()
+
+  - getOrDefault(key, 값이 없는 경우 기본값)
+  - ex) getOrDefault(key, 0) +1); : 해당 key에 값이 없는 경우, 0으로 반환 / 있을 경우, 값+1 반환
+  
+  
+* keySet()
+
+  - Map의 전체 key를 꺼내는 함수
+  
+  
++ entrySet()
+
+  - key와 value 값 모두 출력
