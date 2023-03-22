@@ -81,3 +81,11 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+
+<div>내가 이용한 filtering 방법(for문 사용)<div>
+        <div>![Stream이용대신for](https://user-images.githubusercontent.com/106980524/226929421-997da3a7-71a0-4589-b26c-33a55dde5b88.png)
+</div>
+        
+<div>stream을 이용한 filtering 방법</div>
+        <div>![stream이용](https://user-images.githubusercontent.com/106980524/226929670-b5d94c09-55fe-4bbc-a760-975f342df41c.png)
+</div>
