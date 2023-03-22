@@ -1,0 +1,10 @@
+* Stream
+
+  - 람다 활용 가능
+  - for 또는 foreach문 대신, 함수 여러개를 조합해 원하는 결과 필터링하고 결과 얻을 수 있음
+  - 코드 양 줄이고 간결하게 가능
+  
+  - 순서
+    # 생성 : 배열 / 컬렉션
+    # 가공 : filtering / mapping / sorting / iterating
+    # 결과 만들기 : calculating / reduction / collecting / matching / iterating
