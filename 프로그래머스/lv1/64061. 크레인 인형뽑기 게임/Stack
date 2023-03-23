@@ -1,0 +1,32 @@
+* Stack
+
+  - 특징
+    # LIFO(Last In First Out)구조
+    # 그래프의 깊이 우선 탐색(DFS)에서 사용
+    # 재귀적 함수 호출 시 사용
+    
+  - 선언
+    # import java.util.Stack;
+    # Stack<Element> stack = new Stack();
+      + int형 : Stack<Integer>
+      + char형 : Stack<String>
+      
+  - 값 추가
+    # stack.push();
+    
+  - 값 삭제
+    # stack.pop();
+    # stack.clear(); : 전체 값 제거
+    
+  - 상단 값 출력
+    # stack.peek();
+    
+  - 크기 출력
+    # stack.size();
+    
+  - 비어 있는지 여부
+    # stack.empty();
+    
+  - 포함 하는지 여부
+    # stack.contains();
+    
