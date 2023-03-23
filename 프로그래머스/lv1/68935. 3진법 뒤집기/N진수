@@ -1,0 +1,13 @@
+* 10진수 -> N진수 (a:int)
+
+  - 2진수
+    # Integer.toBinaryString(a);
+    # Integer.toString(a,2);
+  
+  - N진수
+    # Integer.toString(N,2);
+    
+    
+* N진수 -> 10진수 (a:String)
+
+  - Integer.parseInt(a,N);
