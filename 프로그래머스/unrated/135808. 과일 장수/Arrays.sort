@@ -1,0 +1,7 @@
+* Arrays.sort(arr, Collections.reverseOrder())
+
+  - Collections.reverseOrder() : Primitive Type배열 적용 불가 / Wrapper Class 이용
+    # Primitive Type : byte, char, double, short, long, int, float
+    # Wrapper Class : 기본 자료 타입을 객체로 다루기 위해 사용하는 클래스
+                      (Byte, Character, Double, Short, Long, Integer, Float)
+  
