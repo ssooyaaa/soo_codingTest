@@ -1,0 +1,49 @@
+import java.util.*;
+class Solution {
+    public String solution(String X, String Y) {
+        StringBuilder sb= new StringBuilder();
+        
+        List<String> Xlist = new ArrayList<>();
+        List<String> Ylist = new ArrayList<>();
+        List<String> matchList = new ArrayList<>();
+        matchList.add("-1");
+        
+        for(int i=0;i<X.length();i++){
+            String s = String.valueOf(X.charAt(i));
+            Xlist.add(s);
+        }
+        
+        for(int i=0;i<Y.length();i++){
+            String s = String.valueOf(Y.charAt(i));
+            Ylist.add(s);
+        }
+        
+        for(int i=0;i<Xlist.size();i++){
+            for(int j=0;j<Ylist.size();j++){
+                if((Xlist.get(i)).equals(Ylist.get(j))){
+                    Ylist.remove(j);
+                    matchList.add(Xlist.get(i));
+                    break;
+                }
+            }
+        }
+        
+        Collections.sort(matchList,Collections.reverseOrder());
+        
+        if(matchList.get(0).equals("0")){
+            for(int i=1;i<matchList.size();i++){
+                matchList.remove(i);
+            }
+        }
+        
+        if(matchList.size()==1){
+            sb.append(matchList.get(0));
+        }
+        
+        for(int i=0;i<matchList.size()-1;i++){
+            sb.append(matchList.get(i));
+        }
+        
+        return sb.toString();
+    }
+}
