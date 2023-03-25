@@ -72,4 +72,5 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
-> int/long 차이
+<div>int/long 차이</div>
+<div>문자열 길이 10,000까지 이므로 int사용 불가 -> 런타임 에러 발생 / 대신 long 이용</div>
