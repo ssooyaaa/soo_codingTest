@@ -1,0 +1,14 @@
+* SubString
+
+  - index : 0부터 시작
+  
+  - String.subString(start) : start위치 ~ 끝까지 문자열 자르기
+  - String.subString(end) : start위치 ~ end-1까지 문자열 자르기
+  
+  
+* Split
+
+  - 문자열 배열[] = 대상문자열(String).split("기준문자");
+  - "기준문자"를 빼고 배열로 저장
+  
+  
