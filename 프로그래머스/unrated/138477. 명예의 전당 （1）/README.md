@@ -76,3 +76,7 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+
+<div>다른 사람 풀이 - priority queue이용</div>
+<div>![priority Queue](https://user-images.githubusercontent.com/106980524/227722580-fa6a4498-e189-4d90-a2d7-1faf3681b75e.png)
+</div>
