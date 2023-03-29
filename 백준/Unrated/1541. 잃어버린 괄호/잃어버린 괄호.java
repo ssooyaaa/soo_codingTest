@@ -5,6 +5,7 @@ public class Main{
 	
 		Scanner sc = new Scanner(System.in);
         
+	//초기값 0이 아닌 Integer.MAX_VALUE를 사용한 이유 : 중간 계산 or 결과로 나오지 않는 수로 초기화
         int sum = Integer.MAX_VALUE;
         
         String[] nums = sc.nextLine().split("-");
