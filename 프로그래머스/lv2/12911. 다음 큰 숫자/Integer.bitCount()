@@ -1,0 +1,16 @@
+Integer.bitCount()
+
+    - 정수를 2진수로 변환한 뒤, 2진수에 포함된 1을 카운팅해주는 메소드
+    
+    - (다른 풀이)
+      int n_count = Integer.bitCount(n);
+      int temp_count = 0;
+      while(true){
+        n++;
+        temp_count = Integer.bitCount(n);
+
+        if(n_count == temp_count){
+            answer = n;
+            break;
+        }
+      } return answer;
