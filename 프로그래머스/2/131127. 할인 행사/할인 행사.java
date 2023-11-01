@@ -4,38 +4,41 @@ class Solution {
     public int solution(String[] want, int[] number, String[] discount) {
         int answer = 0;
         
-        Map<String, Integer> wantMap = new HashMap<>();
-        for(int i=0;i<want.length;i++)
-            wantMap.put(want[i], number[i]);
+        Map<String, Integer> wMap = new HashMap<>();
+        for(int i=0;i<want.length;i++){
+            String w = want[i];
+            int n = number[i];
+            
+            wMap.put(w, n);
+        }
         
-        Map<String, Integer> discountMap = new HashMap<>();
-        for(int i=0;i<10;i++)
-            discountMap.put(discount[i], discountMap.getOrDefault(discount[i],0)+1);
+        Map<String, Integer> dMap = new HashMap<>();
+        for(int i=0;i<10;i++){
+            dMap.put(discount[i], dMap.getOrDefault(discount[i],0)+1);
+        }
         
-        if(check(wantMap, discountMap))
-            answer++;
+        if(check(wMap, dMap)) answer++;
         
         for(int i=1;i<discount.length-9;i++){
             String prev = discount[i-1];
-            int end = i+9;
+            dMap.put(prev, dMap.getOrDefault(prev,0)-1);
             
-            discountMap.put(prev, discountMap.getOrDefault(prev,0)-1);
-            if(discountMap.get(prev)==0)
-                discountMap.remove(prev);
-            discountMap.put(discount[end], discountMap.getOrDefault(discount[end],0)+1);
+            if(dMap.get(prev)<=0){
+                dMap.remove(prev);
+            }
             
-            if(check(wantMap, discountMap)) 
-                answer++;
+            dMap.put(discount[i+9], dMap.getOrDefault(discount[i+9],0)+1);
+            
+            if(check(wMap, dMap)) answer++;
         }
         
         
         return answer;
     }
     
-    static boolean check(Map<String, Integer> wantMap, Map<String, Integer> discountMap){
-        for(String key:discountMap.keySet()){
-            if(!wantMap.containsKey(key) || discountMap.get(key) != wantMap.get(key))
-                return false;
+    public boolean check(Map<String, Integer> wMap, Map<String, Integer> dMap){
+        for(String key : wMap.keySet()){
+            if(!dMap.containsKey(key) || dMap.get(key)!=wMap.get(key)) return false;
         }
         return true;
     }
